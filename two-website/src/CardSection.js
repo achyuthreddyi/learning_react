@@ -1,4 +1,5 @@
 import React from "react"
+// import Card from "./card"
 
 const CardSection = () =>{
     return (
@@ -7,8 +8,14 @@ const CardSection = () =>{
           <h2 className="text-white">
             We love new friends!
           </h2>
+          <div>
+            {/* <Card/> */}
+          </div>
           <div className="row">
+
+            {/* <Card/> */}
             <div className="col-4">
+              {/* <Card/> */}
               <div className="card" style={{width: "18rem"}}>
                 <img
                   src="https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -23,8 +30,12 @@ const CardSection = () =>{
                   </p>
                   <a href="#" className="btn btn-success">Go somewhere</a>
                 </div>
-              </div>
+              </div> 
+
+
             </div>
+            
+            
             <div className="col-4">
               <div className="card" style={{width: "18rem"}}>
                 <img
@@ -42,6 +53,8 @@ const CardSection = () =>{
                 </div>
               </div>
             </div>
+            
+            
             <div className="col-4">
               <div className="card" style={{width: "18rem"}}>
                 <img
