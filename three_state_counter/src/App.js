@@ -1,4 +1,4 @@
-import React , {useState} from "react"
+import React , { useState } from "react"
 import "./App.css"
 
 function App(){
@@ -9,7 +9,7 @@ function App(){
   return (
     <div className = "App">
       <header>
-        <h1> Counter app using State</h1>
+        <h1> Counter app using State / hooks </h1>
       </header>
       <h2> current value of count is {count}</h2>
       <span> 
