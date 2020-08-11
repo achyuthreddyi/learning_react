@@ -1,0 +1,145 @@
+[debug] [2020-08-11T20:01:58.072Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:01:58.074Z] Command:       /home/achyuth/.nvm/versions/node/v12.18.2/bin/node /home/achyuth/.nvm/versions/node/v12.18.2/bin/firebase init
+[debug] [2020-08-11T20:01:58.074Z] CLI Version:   8.7.0
+[debug] [2020-08-11T20:01:58.074Z] Platform:      linux
+[debug] [2020-08-11T20:01:58.074Z] Node Version:  v12.18.2
+[debug] [2020-08-11T20:01:58.074Z] Time:          Wed Aug 12 2020 01:31:58 GMT+0530 (India Standard Time)
+[debug] [2020-08-11T20:01:58.074Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:01:58.074Z] 
+[debug] [2020-08-11T20:01:58.078Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-11T20:01:58.079Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/achyuth/Documents/javascript/learning_react/react_photo_gallery
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-11T20:02:23.965Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-11T20:02:23.966Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-08-11T20:02:24.319Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 11 Aug 2020 20:02:24 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-11T20:02:24.462Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-11T20:02:39.854Z] Server Error. read ECONNRESET
+[debug] [2020-08-11T20:02:40.106Z] FirebaseError: Server Error. read ECONNRESET
+    at Request._callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2020-08-11T20:03:28.986Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:03:28.988Z] Command:       /home/achyuth/.nvm/versions/node/v12.18.2/bin/node /home/achyuth/.nvm/versions/node/v12.18.2/bin/firebase init
+[debug] [2020-08-11T20:03:28.988Z] CLI Version:   8.7.0
+[debug] [2020-08-11T20:03:28.988Z] Platform:      linux
+[debug] [2020-08-11T20:03:28.988Z] Node Version:  v12.18.2
+[debug] [2020-08-11T20:03:28.988Z] Time:          Wed Aug 12 2020 01:33:28 GMT+0530 (India Standard Time)
+[debug] [2020-08-11T20:03:28.989Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:03:28.989Z] 
+[debug] [2020-08-11T20:03:28.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-11T20:03:28.993Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/achyuth/Documents/javascript/learning_react/react_photo_gallery
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-11T20:03:43.543Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-11T20:03:58.861Z] Server Error. read ECONNRESET
+[debug] [2020-08-11T20:03:59.509Z] FirebaseError: Server Error. read ECONNRESET
+    at Request._callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2020-08-11T20:04:05.112Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:04:05.113Z] Command:       /home/achyuth/.nvm/versions/node/v12.18.2/bin/node /home/achyuth/.nvm/versions/node/v12.18.2/bin/firebase init
+[debug] [2020-08-11T20:04:05.113Z] CLI Version:   8.7.0
+[debug] [2020-08-11T20:04:05.113Z] Platform:      linux
+[debug] [2020-08-11T20:04:05.114Z] Node Version:  v12.18.2
+[debug] [2020-08-11T20:04:05.114Z] Time:          Wed Aug 12 2020 01:34:05 GMT+0530 (India Standard Time)
+[debug] [2020-08-11T20:04:05.114Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T20:04:05.114Z] 
+[debug] [2020-08-11T20:04:05.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-11T20:04:05.118Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/achyuth/Documents/javascript/learning_react/react_photo_gallery
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-11T20:04:17.463Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-11T20:04:32.669Z] Server Error. read ECONNRESET
+[debug] [2020-08-11T20:04:35.208Z] FirebaseError: Server Error. read ECONNRESET
+    at Request._callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (/home/achyuth/.nvm/versions/node/v12.18.2/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
